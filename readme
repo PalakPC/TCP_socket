@@ -1,0 +1,14 @@
+C programs to demonstrate TCP sockets programming. Connects a client to a server on a specific port by sockets.
+
+Client and server codes should be compiled and then run on separate terminals. 
+
+A default port is defined, but user can use another port as well. 
+
+The server can be started as follows:
+./server -p <port-number>
+<port-number> is user-defined port.
+
+Client can be run as follows:
+./client -h <hostname> -p <port-number>
+
+Port number should be same for both client and server.
